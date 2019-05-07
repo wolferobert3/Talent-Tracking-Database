@@ -3,13 +3,13 @@ This program scans PDF resumes using the Java PDFbox library to identify job ski
 
 <p align = 'center'><b>Using the Program</b></p>
 
-<b>Primary GUI</b>
+<p align = 'center'><b>Primary GUI</b></p>
 
 Running the program prompts the display of a graphical user interface, as shown in the image below. Users can click on three buttons: Create Database, Deposit Resumes, or View Candidates. Each button generates a different pop-up menu.
 
 ![Image of the Primary GUI](https://github.com/wolferobert3/Talent-Tracking-Database/blob/master/Usage%20Images/1%20-%20Primary%20GUI.PNG)
 
-<b>Create Database Menu</b>
+<p align = 'center'><b>Create Database Menu</b></p>
 
 Clicking the “Create Database” button causes a pop-up menu to appear, as shown in the image below. Users can enter the name of a database to create, as well as which skills (e.g., Java, for a Java development position) should be tracked using that database. Users should separate skills to be tracked in the database using a space (e.g., Java Python SQL). Users click on the “Create Database” button in the pop-up menu to create a database.
 
@@ -19,7 +19,7 @@ A pop-up message informs the reader if database creation is successful.
 
 ![Image of Database Creation Success Message](https://github.com/wolferobert3/Talent-Tracking-Database/blob/master/Usage%20Images/3%20-%20Database%20Message.PNG)
 
-<b>Deposit Resumes Menu</b>
+<p align = 'center'><b>Deposit Resumes Menu</b></p>
 
 Clicking the “Deposit Resumes” button on the primary GUI causes a pop-up menu to appear. Users can enter the name of the database into which resumes should be deposited in the “Database” text box. File paths to resumes can be inserted into the large text area under the heading “Resumes To Be Deposited.” Users should separate resume file paths with a new line.
 
@@ -35,7 +35,7 @@ The program attempts to deposit resumes into the database when the user clicks t
 
 When the program deposits resumes, it also searches those resumes for strings that correspond to the skills stored in the database. If the program finds a skill, it sets the value of that skill’s column in the database to “Yes” for that resume. If the program does not find the skill, it sets the value of the corresponding column to “No” for that resume.
 
-<b>View Candidates Menu</b>
+<p align = 'center'><b>View Candidates Menu</b></p>
 
 Clicking the “View Candidates” button on the primary GUI causes a pop-up menu to appear. Users can enter the name of the database from which to return candidates in the “Database” text box.
 
@@ -49,11 +49,11 @@ If a user wants to see all candidates in a database, the user can click the “S
 
 ![Image of Table Returned by All Candidates Search](https://github.com/wolferobert3/Talent-Tracking-Database/blob/master/Usage%20Images/9%20-%20All%20Resumes.PNG)
 
-<b>Automatically Populated Database Name</b>
+<p align = 'center'><b>Automatically Populated Database Name</b></p>
 
 The program uses a config.properties file to track the last database name entered by a user. When a user creates a database, deposits resumes, or views candidates, the program writes the most recently entered name of a database to the config.properties file. When a user opens the Deposit Resumes or View Candidates menus, the program automatically populates the database name on these screens with the database name stored in the config.properties file.
 
-<b>Libraries and Tools</b>
+<p align = 'center'><b>Libraries and Tools</b></p>
 
 The program was built using Java 8, which can be downloaded at: https://www.java.com/en/download/
 
@@ -65,6 +65,6 @@ The program was built using the Eclipse IDE, which can be downloaded at: https:/
 
 The program uses PostgreSQL for its database, which can be downloaded at: https://www.postgresql.org/
 
-<b>Authorship</b>
+<p align = 'center'><b>Authorship</b></p>
 
 This program was created by Robert Wolfe.
