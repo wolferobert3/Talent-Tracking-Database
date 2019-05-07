@@ -1,4 +1,4 @@
-<p align = 'center'># Talent-Tracking-Database</p>
+# Talent-Tracking-Database</
 This program scans PDF resumes using the Java PDFbox library to identify job skills required by a client. Users can create databases (e.g., a database for each open position), deposit resumes into databases, and view either all candidates in the database or just those candidates which meet user-defined search criteria.
 
 <p align = 'center'><b>Using the Program</b></p>
@@ -7,7 +7,7 @@ This program scans PDF resumes using the Java PDFbox library to identify job ski
 
 Running the program prompts the display of a graphical user interface, as shown in the image below. Users can click on three buttons: Create Database, Deposit Resumes, or View Candidates. Each button generates a different pop-up menu.
 
-<p align = 'center'>![Image of the Primary GUI](https://github.com/wolferobert3/Talent-Tracking-Database/blob/master/Usage%20Images/1%20-%20Primary%20GUI.PNG)</p>
+![Image of the Primary GUI](https://github.com/wolferobert3/Talent-Tracking-Database/blob/master/Usage%20Images/1%20-%20Primary%20GUI.PNG)
 
 <p align = 'center'><b>Create Database Menu</b></p>
 
